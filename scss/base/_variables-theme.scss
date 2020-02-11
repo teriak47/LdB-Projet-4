@@ -1,0 +1,26 @@
+// Variables
+
+$theme-colors: (
+  "primary": #6a84b7
+);
+
+$primary: #6a84b7;
+$yellow: #ffc107;
+
+$body-bg: $primary;
+$body-color: $white;
+
+$link-color: theme-color("white");
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 1024px
+);
+
+$container-max-widths: (
+  sm: 420px,
+  md: 720px,
+  lg: 960px
+);

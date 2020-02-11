@@ -1,0 +1,35 @@
+.content {
+  background-image: url("../../img/testbg02.png");
+  background-repeat: repeat-y;
+  background-size: contain;
+
+  .container {
+    background-color: $yellow;
+    margin-top: 0;
+    padding: 1em;
+  }
+
+  .embed-responsive {
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    margin-bottom: 2em;
+  }
+}
+
+.card-gauche, .card-droite {
+  margin: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  border: 1px solide $black;
+}
+
+.card-gauche {
+  img {
+    margin-top: 2em;
+  }
+  color: $black;
+
+  .card-title {
+    font-size: 1.5em;
+    margin-top: 1em;
+    font-weight: 700;
+  }
+}

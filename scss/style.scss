@@ -1,11 +1,67 @@
 /* theme projet 4 */
-// * ajouter si dessous les variable à modifier
 
-$primary:       #6a84b7 !default;
+/*!
+ * Bootstrap v4.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
 
 
+// * ajout font
 
+@import url('https://fonts.googleapis.com/css?family=Chewy&display=swap');
 
-//  Include all of Bootstrap
+// * Ajout base bootstrap et modification pour le theme
 
-@import "bootstrap/scss/bootstrap";
+@import "base/functions";
+@import "base/variables";
+@import "base/variables-theme"; // * Overide for the theme
+@import "base/mixins";
+@import "base/root";
+@import "base/reboot";
+@import "base/type";
+
+// * Ajout Layout
+
+@import "layout/header";
+@import "layout/body";
+@import "layout/hero";
+@import "layout/content";
+@import "layout/footer";
+
+// * ajout des module
+
+@import "module/images";
+@import "module/code";
+@import "module/grid";
+@import "module/tables";
+@import "module/forms";
+@import "module/buttons";
+@import "module/transitions";
+@import "module/dropdown";
+@import "module/button-group";
+@import "module/input-group";
+@import "module/custom-forms";
+@import "module/nav";
+@import "module/navbar";
+@import "module/card";
+@import "module/breadcrumb";
+@import "module/pagination";
+@import "module/badge";
+@import "module/jumbotron";
+@import "module/alert";
+@import "module/progress";
+@import "module/media";
+@import "module/list-group";
+@import "module/close";
+@import "module/toasts";
+@import "module/modal";
+@import "module/tooltip";
+@import "module/popover";
+@import "module/carousel";
+@import "module/spinners";
+
+// * fin
+@import "base/utilities";
+@import "module/print";
