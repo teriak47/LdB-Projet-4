@@ -24,11 +24,11 @@
         <li class="nav-item">
           <a class="nav-link" href="photos.html">Photos</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="restaurants.html">Restaurant</a>
         </li>
 
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
@@ -43,61 +43,51 @@
     </section>
 
     <div class="container-fluid content">
-      <section class="container contact">
+      <section class="container restaurant">
         <div class="row align-items-center justify-content-around">
-         
-          <div class="col-6 align-self-start">
-              <div class="card-contact">
-                <form action="contact.html">
-                  <div class="form-group">
-                    <label for="Nom">Nom</label>
-                    <input type="text" name="Nom" id="Nom" class="form-control" placeholder="Nom">
-                  </div>  
-                  <div class="form-group">
-                    <label for="Prenom">Prénom</label>
-                    <input type="text" name="Prenom" id="Prenom" class="form-control" placeholder="Prenom">
-                  </div>  
-                  <div class="form-group">
-                    <label for="Email">Email</label>
-                    <input type="email" name="Email" id="Email" class="form-control" placeholder="entre@votremail.com">
-                  </div>  
-                  <div class="form-group">
-                    <div class="region">
-                      <h6>Région</h6>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="Charleroi" id="Charleroi" value="Charleroi" checked>
-                        <label class="form-check-label" for="Charleroi">
-                          Charleroi
-                        </label>
-                      </div>
-                      
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="Anderlecht" id="Anderlecht" value="Anderlecht">
-                        <label class="form-check-label" for="Anderlecht">
-                          Anderlecht
-                        </label>
-                      </div>
-                    </div>
-                  </div>  
-                  <div class="form-group">
-                    <label for="Sujet">Sujet</label>
-                    <select class="form-control" id="Sujet">
-                      <option>Réservation</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                  
-                  <div class="form-group">
-                    <label for="question">Posez votre question</label>
-                    <textarea class="form-control" id="question" rows="3"></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-primary btn-sm">Envoyer votre message</button>
-                </form>
-              </div>
-          </div> 
+           <div class="col-md-5 align-self-start">
+               <div class="card-resto">
+                   <h4>Bio's Fooding <br/> vous accueille à <br />  Charleroi</h4>
+                   <p>au</p>
+                   <p>Quai Arthur Rimbaud 10</p>
+                   <p>6000 Charleroi</p>
+                   <p>071/010203</p>
+                   <p>0472/010203</p>
+                   <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2542.8779751966968!2d4.438995715729782!3d50.40611167946921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2267503f1dd91%3A0x86dcdd4c2a9c872b!2sQuai%20Arthur%20Rimbaud%2010%2C%206000%20Charleroi!5e0!3m2!1sfr!2sbe!4v1581362497598!5m2!1sfr!2sbe" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                   </div>
+               </div>
+           </div> 
+           <div class="col-md-5 align-self-start">
+            <div class="card-resto">
+                <h4>Bio's Fooding <br/> vous accueille à <br />Anderlecht</h4>
+                <p>à la</p>
+                <p>Rue de Douvre 41</p>
+                <p>1070 Anderlecht</p>
+                <p>02/040506</p>
+                <p>0475/040506</p>
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.6965103724633!2d4.3114838158910755!3d50.836785167332586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c41b7bb0123f%3A0x3aef9649552f751!2sRue%20de%20Douvres%2041%2C%201070%20Anderlecht!5e0!3m2!1sfr!2sbe!4v1581363079329!5m2!1sfr!2sbe" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 align-self-start">
+            <div class="card-resto">
+                <h4>Nos Horaires</h4>
+                <ul class="list-unstyled">
+                    <li>Lun 11h30-14h30 / 18h-22h</li>
+                    <li>Mar 11h30-14h30 / 18h-22h</li>
+                    <li>Mer 11h30-14h30 / 18h-22h</li>
+                    <li>Jeu 11h30-14h30 / 18h-22h</li>
+                    <li>Ven 11h30-14h30 / 18h-22h</li>
+                    <li>Sam 11h30-14h30 / 18h-22h</li>
+                    <li>Dim 11h30-14h30 / 18h-22h</li>
+                </ul>
+                <a href="#" class="btn btn-reservez">
+                    Réservez maintenant votre table
+                </a>
+            </div>
+        </div> 
         </div>
         
       </section>

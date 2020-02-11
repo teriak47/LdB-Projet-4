@@ -11,6 +11,7 @@
 // * ajout font
 
 @import url('https://fonts.googleapis.com/css?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
 
 // * Ajout base bootstrap et modification pour le theme
 
@@ -28,6 +29,9 @@
 @import "layout/body";
 @import "layout/hero";
 @import "layout/content";
+@import "layout/menu";
+@import "layout/restaurant";
+@import "layout/contact";
 @import "layout/footer";
 
 // * ajout des module

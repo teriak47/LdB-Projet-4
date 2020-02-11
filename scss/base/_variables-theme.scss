@@ -1,16 +1,26 @@
 // Variables
 
-$theme-colors: (
-  "primary": #6a84b7
-);
 
 $primary: #6a84b7;
 $yellow: #ffc107;
+$warning: $yellow;
+
+$theme-colors: (
+  "primary": #6a84b7,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
 
 $body-bg: $primary;
 $body-color: $white;
 
-$link-color: theme-color("white");
+$font-family-base: 'PT Serif', serif;
 
 $grid-breakpoints: (
   xs: 0,
